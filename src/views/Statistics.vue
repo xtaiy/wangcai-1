@@ -11,7 +11,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.nav-wrapper {
+.layout-wrapper {
   display: flex;
   flex-direction: column;
   height: 100vh;
