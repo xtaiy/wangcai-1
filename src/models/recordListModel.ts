@@ -1,5 +1,5 @@
 const localStorageKeyName = 'recordList';
-export const model = {
+export const recordListModel = {
     clone(data:RecordItem[]|RecordItem){
         return JSON.parse(JSON.stringify(data));
     },
@@ -11,4 +11,4 @@ export const model = {
     }
 };
 
-export default model
+export default recordListModel
