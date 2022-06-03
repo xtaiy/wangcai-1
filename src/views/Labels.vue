@@ -2,7 +2,8 @@
   <Layout>
     <div class="tags">
       <router-link :to="`/labels/edit/${tag.id}`" class="tag" v-for="tag in tags" :key="tag.id"><span>{{tag.name}}</span>
-      <Icon name="right"></Icon></router-link>
+      <Icon name="right"></Icon>
+      </router-link>
     </div>
     <div class="createTag-wrapper">
       <Button @click="createTag">新建标签</Button>
