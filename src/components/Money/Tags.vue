@@ -6,13 +6,13 @@
     <ul class="current">
       <li v-for="tag in tagList" :key="tag.id"
           :class="{selected:selectedTags.indexOf(tag)>=0}"
-      @click="toggle(tag)">{{tag.name}}</li>
+      @click="toggle(tag)">{{tag.name}}
+      </li>
     </ul>
   </div>
 </template>
 
 <script lang="ts">
-import Vue from 'vue';
 import {Component} from 'vue-property-decorator';
 import {mixins} from 'vue-class-component';
 import tagHelper from '@/mixins/tagHelper';
