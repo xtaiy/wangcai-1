@@ -2,7 +2,7 @@ const path = require('path')//引入一个path模块
 
 module.exports = {
     publicPath: process.env.NODE_ENV === 'production'
-        ? '/wangcai-1website/'
+        ? '/wangcai-website/'
         : '/',
     lintOnSave: false,
     chainWebpack: config => {
