@@ -8,6 +8,7 @@
     <div class="createTag-wrapper">
       <Button @click="createTag">新建标签</Button>
     </div>
+
   </Layout>
 </template>
 
@@ -30,6 +31,7 @@ export default class Labels extends mixins(tagHelper){
   created(){
     this.$store.commit('fetchTags');
   }
+
 }
 </script>
 
@@ -62,4 +64,5 @@ export default class Labels extends mixins(tagHelper){
     margin-top:44-16px
   }
 }
+
 </style>
